@@ -50,7 +50,10 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
+
 ![Eliottigram](https://user-images.githubusercontent.com/93938274/174412954-1d258ee2-39d9-4deb-89ba-f3069f1ae216.gif)
+
 
 GIF created with [Kap](https://getkap.co/).
 
