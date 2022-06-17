@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChat"
+        android:transcriptMode="alwaysScroll"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/rlSend"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:id="@+id/rlSend"
+        android:layout_width="409dp"
+        android:layout_height="354dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="330dp"
+        android:layout_height="39dp"
+        android:layout_alignBottom="@+id/ibSend"
+        android:layout_marginTop="360dp"
+        android:layout_toLeftOf="@+id/ibSend"
+        android:gravity="top"
+        android:hint="Say anything!"
+        android:imeOptions="actionSend"
+        android:inputType="textShortMessage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/send"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:src="@android:drawable/ic_menu_send"
+        android:textSize="18sp" />
+
+</RelativeLayout>

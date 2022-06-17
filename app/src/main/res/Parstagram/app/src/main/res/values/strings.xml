@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Eliottigram</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Paste BOTH strings as required -->
+    <string name="back4app_app_id">ibWuObehjTuvzNeMtBHdI1dkCyHPfrbsUYID25OJ
+</string>
+    <string name="back4app_client_key">mNHp0MVj4gbfn3sGPyahCgcXjS2mmYUyTGWgun0m</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
