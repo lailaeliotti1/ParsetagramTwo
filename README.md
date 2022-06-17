@@ -52,7 +52,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 Here's a walkthrough of implemented user stories:
 
 
-<img src='[https://submissions.us-east-1.linodeobjects.com/metau_android/0dlqpaW2.gif](https://im4.ezgif.com/tmp/ezgif-4-9cd86be4ee.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[(https://im4.ezgif.com/tmp/ezgif-4-9cd86be4ee.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
