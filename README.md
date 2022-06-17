@@ -52,9 +52,6 @@ Please list two areas of the assignment you'd like to **discuss further with you
 Here's a walkthrough of implemented user stories:
 ![Eliottigram](https://user-images.githubusercontent.com/93938274/174412954-1d258ee2-39d9-4deb-89ba-f3069f1ae216.gif)
 
-
-<img src='[(https://im4.ezgif.com/tmp/ezgif-4-9cd86be4ee.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 GIF created with [Kap](https://getkap.co/).
 
 ## Credits
