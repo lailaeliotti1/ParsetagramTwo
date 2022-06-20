@@ -1,6 +1,9 @@
 package com.example.parstagram;
 
 import android.app.Application;
+
+import com.example.parstagram.models.Post;
+import com.example.parstagram.models.User;
 import com.parse.Parse;
 import com.parse.ParseObject;
 

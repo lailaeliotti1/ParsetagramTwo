@@ -1,4 +1,4 @@
-package com.example.parstagram;
+package com.example.parstagram.newsfeed;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -10,6 +10,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
+import com.example.parstagram.R;
+import com.example.parstagram.models.Post;
 import com.parse.ParseFile;
 
 import org.parceler.Parcels;

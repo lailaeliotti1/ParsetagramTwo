@@ -29,15 +29,15 @@
         </provider>
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".login.LoginActivity"
             android:exported="true"/>
         <activity android:name=".MainActivity"
             android:exported="false"/>
 
-        <activity android:name=".PostDetailActivity">
+        <activity android:name=".newsfeed.PostDetailActivity">
         </activity>
 
-        <activity android:name=".SplashActivity"
+        <activity android:name=".login.SplashActivity"
             android:exported="true">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />

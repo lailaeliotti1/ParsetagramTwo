@@ -1,4 +1,4 @@
-package com.example.parstagram;
+package com.example.parstagram.newsfeed;
 
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;

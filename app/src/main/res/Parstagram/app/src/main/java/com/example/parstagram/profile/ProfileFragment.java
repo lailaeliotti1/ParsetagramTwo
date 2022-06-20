@@ -1,4 +1,4 @@
-package com.example.parstagram.fragments;
+package com.example.parstagram.profile;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -14,11 +14,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
 import com.example.parstagram.R;
-import com.example.parstagram.User;
+import com.example.parstagram.fragments.BaseFragment;
+import com.example.parstagram.models.User;
 import com.parse.GetCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;

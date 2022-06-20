@@ -7,11 +7,11 @@ import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Toast;
 
-import com.example.parstagram.fragments.ComposeFragment;
-import com.example.parstagram.fragments.FeedFragment;
-import com.example.parstagram.fragments.ProfileFragment;
+import com.example.parstagram.compose.ComposeFragment;
+import com.example.parstagram.newsfeed.FeedFragment;
+import com.example.parstagram.profile.ProfileFragment;
+import com.example.parstagram.models.User;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.parse.ParseUser;
 
