@@ -1,47 +1,72 @@
-# Project 1 - *Flixster*
+# Project 3 - *Parsetegram*
 
-**Flixster** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
+**Eliottigram** is a photo sharing app using Parse as its backend.
 
-Time spent: 14 hours spent in total
+Time spent: **20** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [X] User can **scroll through current movies** from the Movie Database API
-* [X] Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-* [X] For each movie displayed, user can see the following details:
-* [X] Title, Poster Image, Overview, Popularity (Portrait mode)
-* [X] Title, Backdrop Image, Overview (Landscape mode)
-* [X] Allow user to view details of the movie including ratings within a separate activity
+- [X] User sees app icon in home screen.
+- [X] User can sign up to create a new account using Parse authentication
+- [X] User can log in to their account
+- [X] The current signed in user is persisted across app restarts
+- [X] User can log out of their account
+- [X] User can take a photo, add a caption, and post it to "Instagram"
+- [X] User can view the last 20 posts submitted to "Instagram"
+- [X] User can pull to refresh the last 20 posts submitted to "Instagram"
+- [X] User can tap a post to go to a Post Details activity, which includes timestamp and caption.
 
 The following **stretch** features are implemented:
 
-* [ ] Improved the user interface by experimenting with styling and coloring.
-* [ ] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations)
-* [X] Apply the popular [View Binding annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-ViewBinding) to reduce boilerplate code.
-* [ ] Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
+- [ ] Style the login page to look like the real Instagram login page.
+- [X] Style the feed to look like the real Instagram feed.
+- [X] User can load more posts once they reach the bottom of the feed using endless scrolling.
+- [X] User should switch between different tabs using fragments and a Bottom Navigation View.
+  - [X] Feed Tab (to view all posts from all users)
+  - [X] Capture Tab (to make a new post using the Camera and Photo Gallery)
+  - [X] Profile Tab (to view only the current user's posts, in a grid)
+- [X] Show the username and creation time for each post
+- User Profiles:
+  - [X] Allow the logged in user to add a profile photo
+  - [X] Display the profile photo with each post
+  - [ ] Tapping on a post's username or profile photo goes to that user's profile page
+  - [ ] User Profile shows posts in a grid
+- [ ] After the user submits a new post, show an indeterminate progress bar while the post is being uploaded to Parse
+- [ ] User can comment on a post and see all comments for each post in the post details screen.
+- [ ] User can like a post and see number of likes for each post in the post details screen.
 
 The following **additional** features are implemented:
 
-* [X] List anything else that you can get done to improve the app functionality!
-* Secret.xml file
+- [X] List anything else that you can get done to improve the app functionality!
+    -   Splash screen
+
+Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
+
+1. Grid view
+2. Endless Scrolling
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+![Eliottigram](https://user-images.githubusercontent.com/93938274/174412954-1d258ee2-39d9-4deb-89ba-f3069f1ae216.gif)
+
 
 GIF created with [Kap](https://getkap.co/).
 
+## Credits
+
+List an 3rd party libraries, icons, graphics, or other assets you used in your app.
+
+- [Android Async Http Client](http://loopj.com/android-async-http/) - networking library
+
+
 ## Notes
-I faced challenges with loading pictures in xml files and learning new terminology.
 
-## Open-source libraries used
-
-- [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
-- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
+I had to put in some extra night hours, but I am very proud of my results.
 
 ## License
 
